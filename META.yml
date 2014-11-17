@@ -4,6 +4,7 @@ author:
   - chromatic
 build_requires:
   Test::More: '0'
+  base: '0'
   lib: '0'
 configure_requires:
   ExtUtils::MakeMaker: '0'
@@ -16,13 +17,11 @@ meta-spec:
 name: SUPER
 requires:
   Carp: '0'
-  Exporter: '0'
   Scalar::Util: '0'
   Sub::Identify: '0'
-  base: '0'
   strict: '0'
   warnings: '0'
 resources:
   bugtracker: http://rt.cpan.org/NoAuth/Bugs.html?Dist=SUPER
   repository: https://github.com/chromatic/SUPER.git
-version: '1.20141116'
+version: '1.20141117'

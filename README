@@ -1,11 +1,11 @@
 
 
 This archive contains the distribution SUPER,
-version 1.20141116:
+version 1.20141117:
 
   control superclass method dispatch
 
-This software is copyright (c) 2012 by chromatic@wgz.org.
+This software is copyright (c) 2014 by chromatic@wgz.org.
 
 This is free software; you can redistribute it and/or modify it under
 the same terms as the Perl 5 programming language system itself.

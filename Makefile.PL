@@ -21,18 +21,17 @@ my %WriteMakefileArgs = (
   "NAME" => "SUPER",
   "PREREQ_PM" => {
     "Carp" => 0,
-    "Exporter" => 0,
     "Scalar::Util" => 0,
     "Sub::Identify" => 0,
-    "base" => 0,
     "strict" => 0,
     "warnings" => 0
   },
   "TEST_REQUIRES" => {
     "Test::More" => 0,
+    "base" => 0,
     "lib" => 0
   },
-  "VERSION" => "1.20141116",
+  "VERSION" => "1.20141117",
   "test" => {
     "TESTS" => "t/*.t"
   }
@@ -41,7 +40,6 @@ my %WriteMakefileArgs = (
 
 my %FallbackPrereqs = (
   "Carp" => 0,
-  "Exporter" => 0,
   "Scalar::Util" => 0,
   "Sub::Identify" => 0,
   "Test::More" => 0,
